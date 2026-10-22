@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		3F023381308A6E5A00EEB6EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F023367308A6E5900EEB6EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F02336E308A6E5A00EEB6EE;
+			remoteInfo = TrailiApp;
+		};
+		3F02338B308A6E5A00EEB6EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F023367308A6E5900EEB6EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F02336E308A6E5A00EEB6EE;
+			remoteInfo = TrailiApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F02336F308A6E5A00EEB6EE /* TrailiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F023380308A6E5A00EEB6EE /* TrailiAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailiAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F02338A308A6E5A00EEB6EE /* TrailiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3F023390308A6E5A00EEB6EE /* Exceptions for "TrailiApp" folder in "TrailiApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3F02336E308A6E5A00EEB6EE /* TrailiApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3F023371308A6E5A00EEB6EE /* TrailiApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				3F023390308A6E5A00EEB6EE /* Exceptions for "TrailiApp" folder in "TrailiApp" target */,
+			);
+			path = TrailiApp;
+			sourceTree = "<group>";
+		};
+		3F023383308A6E5A00EEB6EE /* TrailiAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrailiAppTests;
+			sourceTree = "<group>";
+		};
+		3F02338D308A6E5A00EEB6EE /* TrailiAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrailiAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F02336C308A6E5A00EEB6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		3F02337D308A6E5A00EEB6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		3F023387308A6E5A00EEB6EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F023366308A6E5900EEB6EE = {
+			isa = PBXGroup;
+			children = (
+				3F023371308A6E5A00EEB6EE /* TrailiApp */,
+				3F023383308A6E5A00EEB6EE /* TrailiAppTests */,
+				3F02338D308A6E5A00EEB6EE /* TrailiAppUITests */,
+				3F023370308A6E5A00EEB6EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F023370308A6E5A00EEB6EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F02336F308A6E5A00EEB6EE /* TrailiApp.app */,
+				3F023380308A6E5A00EEB6EE /* TrailiAppTests.xctest */,
+				3F02338A308A6E5A00EEB6EE /* TrailiAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F02336E308A6E5A00EEB6EE /* TrailiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F023391308A6E5A00EEB6EE /* Build configuration list for PBXNativeTarget "TrailiApp" */;
+			buildPhases = (
+				3F02336B308A6E5A00EEB6EE /* Sources */,
+				3F02336C308A6E5A00EEB6EE /* Frameworks */,
+				3F02336D308A6E5A00EEB6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				3F023371308A6E5A00EEB6EE /* TrailiApp */,
+			);
+			name = TrailiApp;
+			productName = TrailiApp;
+			productReference = 3F02336F308A6E5A00EEB6EE /* TrailiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F02337F308A6E5A00EEB6EE /* TrailiAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F023396308A6E5A00EEB6EE /* Build configuration list for PBXNativeTarget "TrailiAppTests" */;
+			buildPhases = (
+				3F02337C308A6E5A00EEB6EE /* Sources */,
+				3F02337D308A6E5A00EEB6EE /* Frameworks */,
+				3F02337E308A6E5A00EEB6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F023382308A6E5A00EEB6EE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3F023383308A6E5A00EEB6EE /* TrailiAppTests */,
+			);
+			name = TrailiAppTests;
+			productName = TrailiAppTests;
+			productReference = 3F023380308A6E5A00EEB6EE /* TrailiAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F023389308A6E5A00EEB6EE /* TrailiAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F023399308A6E5A00EEB6EE /* Build configuration list for PBXNativeTarget "TrailiAppUITests" */;
+			buildPhases = (
+				3F023386308A6E5A00EEB6EE /* Sources */,
+				3F023387308A6E5A00EEB6EE /* Frameworks */,
+				3F023388308A6E5A00EEB6EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F02338C308A6E5A00EEB6EE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3F02338D308A6E5A00EEB6EE /* TrailiAppUITests */,
+			);
+			name = TrailiAppUITests;
+			productName = TrailiAppUITests;
+			productReference = 3F02338A308A6E5A00EEB6EE /* TrailiAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F023367308A6E5900EEB6EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					3F02336E308A6E5A00EEB6EE = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					3F02337F308A6E5A00EEB6EE = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 3F02336E308A6E5A00EEB6EE;
+					};
+					3F023389308A6E5A00EEB6EE = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 3F02336E308A6E5A00EEB6EE;
+					};
+				};
+			};
+			buildConfigurationList = 3F02336A308A6E5900EEB6EE /* Build configuration list for PBXProject "TrailiApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F023366308A6E5900EEB6EE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3F023370308A6E5A00EEB6EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F02336E308A6E5A00EEB6EE /* TrailiApp */,
+				3F02337F308A6E5A00EEB6EE /* TrailiAppTests */,
+				3F023389308A6E5A00EEB6EE /* TrailiAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F02336D308A6E5A00EEB6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		3F02337E308A6E5A00EEB6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		3F023388308A6E5A00EEB6EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F02336B308A6E5A00EEB6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		3F02337C308A6E5A00EEB6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		3F023386308A6E5A00EEB6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F023382308A6E5A00EEB6EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F02336E308A6E5A00EEB6EE /* TrailiApp */;
+			targetProxy = 3F023381308A6E5A00EEB6EE /* PBXContainerItemProxy */;
+		};
+		3F02338C308A6E5A00EEB6EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F02336E308A6E5A00EEB6EE /* TrailiApp */;
+			targetProxy = 3F02338B308A6E5A00EEB6EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F023392308A6E5A00EEB6EE /* Debug configuration for PBXNativeTarget "TrailiApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrailiApp/TrailiApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TY3WXS84XJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrailiApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = run.traili.TrailiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F023393308A6E5A00EEB6EE /* Release configuration for PBXNativeTarget "TrailiApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrailiApp/TrailiApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TY3WXS84XJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TrailiApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = run.traili.TrailiApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F023394308A6E5A00EEB6EE /* Debug configuration for PBXProject "TrailiApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TY3WXS84XJ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F023395308A6E5A00EEB6EE /* Release configuration for PBXProject "TrailiApp" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TY3WXS84XJ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F023397308A6E5A00EEB6EE /* Debug configuration for PBXNativeTarget "TrailiAppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TY3WXS84XJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = run.traili.TrailiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailiApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrailiApp";
+			};
+			name = Debug;
+		};
+		3F023398308A6E5A00EEB6EE /* Release configuration for PBXNativeTarget "TrailiAppTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TY3WXS84XJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = run.traili.TrailiAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailiApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrailiApp";
+			};
+			name = Release;
+		};
+		3F02339A308A6E5A00EEB6EE /* Debug configuration for PBXNativeTarget "TrailiAppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TY3WXS84XJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = run.traili.TrailiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrailiApp;
+			};
+			name = Debug;
+		};
+		3F02339B308A6E5A00EEB6EE /* Release configuration for PBXNativeTarget "TrailiAppUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TY3WXS84XJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = run.traili.TrailiAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrailiApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F02336A308A6E5900EEB6EE /* Build configuration list for PBXProject "TrailiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F023394308A6E5A00EEB6EE /* Debug configuration for PBXProject "TrailiApp" */,
+				3F023395308A6E5A00EEB6EE /* Release configuration for PBXProject "TrailiApp" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		3F023391308A6E5A00EEB6EE /* Build configuration list for PBXNativeTarget "TrailiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F023392308A6E5A00EEB6EE /* Debug configuration for PBXNativeTarget "TrailiApp" */,
+				3F023393308A6E5A00EEB6EE /* Release configuration for PBXNativeTarget "TrailiApp" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		3F023396308A6E5A00EEB6EE /* Build configuration list for PBXNativeTarget "TrailiAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F023397308A6E5A00EEB6EE /* Debug configuration for PBXNativeTarget "TrailiAppTests" */,
+				3F023398308A6E5A00EEB6EE /* Release configuration for PBXNativeTarget "TrailiAppTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		3F023399308A6E5A00EEB6EE /* Build configuration list for PBXNativeTarget "TrailiAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F02339A308A6E5A00EEB6EE /* Debug configuration for PBXNativeTarget "TrailiAppUITests" */,
+				3F02339B308A6E5A00EEB6EE /* Release configuration for PBXNativeTarget "TrailiAppUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F023367308A6E5900EEB6EE /* Project object */;
+	validationLevel = 1;
+}
