@@ -1,5 +1,5 @@
 //
-//  TrailiAppApp.swift
+//  TrailiApp.swift
 //  TrailiApp
 //
 //  Created by Jannic Beck on 22.10.26.
@@ -9,10 +9,10 @@ import SwiftUI
 import SwiftData
 
 @main
-struct TrailiAppApp: App {
+struct TrailiApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Trail.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

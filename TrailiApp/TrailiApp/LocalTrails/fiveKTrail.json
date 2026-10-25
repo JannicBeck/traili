@@ -1,0 +1,88 @@
+{
+    "name": "Couch to 5k",
+    "sections": [{
+        "name": "Section 1",
+        "units": [{
+            "name" "Unit 1",
+            "levels": [{
+                    "name": "Week 1",
+                    "lessons": [
+                        { "name": "Run/Walk", "instructions": "30-min run/walk: 5-min run 1-min walk, repeat x5" },
+                        { "name": "Run/Walk", "instructions": "5-min run, 1-min walk x5" },
+                        { "name": "Run/Walk", "instructions": "6-min run, 1-min walk x5" },
+                        { "name": "Walk", "instructions": "30-min walk" }
+                    ]
+                },
+                {
+                    "name": "Week 2",
+                    "lessons": [
+                        { "name": "Run/Walk", "instructions": "7-min run, 1-min walk, repeat x4"},
+                        { "name": "Run/Walk", "instructions": "7-min run, 1-min walk, x4"},
+                        { "name": "Cross", "instructions": "Cross-training 40-45 min"},
+                        { "name": "Run", "instructions": "8-min run"},
+                        { "name": "Walk", "instructions": "30-min walk"}
+                    ]
+                },
+                {
+                    "name": "Week 3",
+                    "lessons": [
+                        { "name": "Run/Walk", "instructions": "9-min run, 1-min walk x3"},
+                        { "name": "Run/Walk", "instructions": "10-min run, 1-min walk x3"},
+                        { "name": "Cross", "instructions": "Cross-training 40-45 min"},
+                        { "name": "Run", "instructions": "11-min run"},
+                        { "name": "Walk", "instructions": "Rest or 30-min walk"},
+                    ]
+                },
+                 {
+                    "name": "Week 4",
+                    "lessons": [
+                        { "name": "Run/Walk", "instructions": "12-min run, 1-min walk x3"},
+                        { "name": "Run/Walk", "instructions": "14-min run, 1-min walk x2"},
+                        { "name": "Cross", "instructions": "Cross-training"},
+                        { "name": "Run/Walk", "instructions": "15-min run, 1-min walk x2"},
+                        { "name": "Walk", "instructions": "30-min walk"},
+                    ]
+                },
+                 {
+                    "name": "Week 5",
+                    "lessons": [
+                        { "name": "Run/Walk", "instructions": "16-min run, 1-min walk x1, 12-min run"},
+                        { "name": "Run/Walk", "instructions": "18-min walk, 1-min walk x1, 10-min run"},
+                        { "name": "Cross", "instructions": "Cross-training"},
+                        { "name": "Run/Walk", "instructions": "20-min run, 1-min walk x1, 10-min run"},
+                        { "name": "Walk", "instructions": "30-min walk"},
+                    ]
+                },
+                 {
+                    "name": "Week 6",
+                    "lessons": [
+                        { "name": "Run/Walk", "instructions": "23-min run, 1-min walk x1, 5-min run"},
+                        { "name": "Run/Walk", "instructions": "24-min run, 1-min walk x1, 5-min run"},
+                        { "name": "Cross", "instructions": "Cross-training"},
+                        { "name": "Run/Walk", "instructions": "25-min run, 1-min walk x1, 10-min run"},
+                        { "name": "Walk", "instructions": "30-min walk"},
+                    ]
+                },
+                 {
+                    "name": "Week 7",
+                    "lessons": [
+                        { "name": "Run", "instructions": "Run for 26 minutes"},
+                        { "name": "Run", "instructions": "Run for 28 minutes"},
+                        { "name": "Cross", "instructions": "Cross-training 30-min"},
+                        { "name": "Run", "instructions": "Run for 30 minutes"},
+                        { "name": "Walk", "instructions": "30-min walk"},
+                    ]
+                },
+                 {
+                    "name": "Week 8",
+                    "lessons": [
+                        { "name": "Run", "instructions": "Run for 25 minutes"},
+                        { "name": "Run", "instructions": "Run for 20 minutes"},
+                        { "name": "Cross", "instructions": "Cross-training 30 minutes"},
+                        { "name": "Run", "instructions": "Run 5km"}
+                    ]
+                }
+            ]
+        }]
+    }]
+}
